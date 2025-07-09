@@ -1,0 +1,26 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Nishant"
+    },
+    {
+      "name": "Francisco Macejkovic",
+      "id": 2
+    },
+    {
+      "name": "Raymond Jones",
+      "id": 5
+    },
+    {
+      "name": "Darrel Keebler",
+      "id": 6
+    },
+    {
+      "name": "Ruth Hayes",
+      "id": 7
+    }
+  ],
+  "albums": [],
+  "photos": []
+}
