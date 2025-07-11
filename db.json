@@ -17,10 +17,67 @@
       "id": 6
     },
     {
-      "name": "Ruth Hayes",
+      "name": "Alejandro Heathcote",
       "id": 7
     }
   ],
-  "albums": [],
-  "photos": []
+  "albums": [
+    {
+      "userId": 1,
+      "title": "Tasty Steel Pizza",
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "title": "Modern Steel Pants",
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "title": "Elegant Cotton Tuna",
+      "id": 4
+    },
+    {
+      "userId": 5,
+      "title": "Unbranded Rubber Chicken",
+      "id": 6
+    },
+    {
+      "userId": 6,
+      "title": "Luxurious Metal Hat",
+      "id": 7
+    },
+    {
+      "userId": 7,
+      "title": "Small Fresh Shoes",
+      "id": 8
+    },
+    {
+      "userId": 2,
+      "title": "Incredible Steel Soap",
+      "id": 9
+    }
+  ],
+  "photos": [
+    {
+      "albumId": 2,
+      "url": "https://loremflickr.com/150/150/abstract?lock=4547",
+      "id": 1
+    },
+    {
+      "albumId": 3,
+      "url": "https://loremflickr.com/150/150/abstract?lock=51765",
+      "id": 3
+    },
+    {
+      "albumId": 4,
+      "url": "https://loremflickr.com/150/150/abstract?lock=77278",
+      "id": 4
+    },
+    {
+      "albumId": 4,
+      "url": "https://loremflickr.com/150/150/abstract?lock=1671",
+      "id": 5
+    }
+  ]
 }

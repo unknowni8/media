@@ -1,5 +1,6 @@
 import className from 'classnames';
 import { GoSync } from 'react-icons/go';
+import { twMerge } from 'tw-merge';
 
 function Button({
   children,
@@ -13,9 +14,9 @@ function Button({
   loading,
   ...rest
 }) {
-  const classes = className(
-    rest.className,
+  const classes = twMerge(className(
     'flex justify-center items-center px-3 py-1.5 border h-8 w-26',
+    rest.className,
     {
       'opacity-80': loading,
       'border-blue-500 bg-blue-500 text-white': primary,
@@ -31,7 +32,7 @@ function Button({
       'text-yellow-400': outline && warning,
       'text-red-500': outline && danger,
     }
-  );
+  ));
 
   return (
     <button {...rest} disabled={loading} className={classes}>

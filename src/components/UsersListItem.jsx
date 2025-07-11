@@ -1,6 +1,6 @@
 import { GoTrashcan } from "react-icons/go";
 import { useThunk } from "../hooks/useThunk";
-import { removeUser } from "../store/thunks/removeUser";
+import { removeUser } from "../store";
 import Button from "./Button";
 import ExpandablePanel from "./ExpandablePanel";
 import AlbumsList from "./AlbumList";
